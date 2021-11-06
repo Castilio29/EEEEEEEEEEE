@@ -1,5 +1,3 @@
---// Credits \--
---[[ Ezpi#0474 - Creator of this script ]]--
 
 --// Services \--
 local CoreGui = game:GetService("CoreGui")
@@ -24,10 +22,10 @@ end
 
 --// UI Library \--
 local Library = loadstring(game:HttpGetAsync('https://pastebin.com/raw/edJT9EGX'))()
-local Window = Library:CreateWindow("AutoClicker by Ezpi")
+local Window = Library:CreateWindow("Lofi's Clicker")
 Enabled_1 = Window:AddColor({
     text = 'Status:',
-    flag = "Ezpi_1",
+    flag = "Lofi",
     color = Color3.new(1, 0, 0),
     callback = function(A_1)
         -- "Enabled" Color
